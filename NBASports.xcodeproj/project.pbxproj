@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244CF40B2403A1BA00D7CDE8 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF40A2403A1BA00D7CDE8 /* TeamTableViewCell.swift */; };
+		244CF40D2403A27300D7CDE8 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF40C2403A27300D7CDE8 /* UIViewController+Helper.swift */; };
+		244CF40F2403A47200D7CDE8 /* TeamController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF40E2403A47200D7CDE8 /* TeamController+UITableView.swift */; };
+		244CF4112403A4FD00D7CDE8 /* CreateTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF4102403A4FD00D7CDE8 /* CreateTeamViewController.swift */; };
+		244CF4142403A72100D7CDE8 /* NBASportsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 244CF4122403A72100D7CDE8 /* NBASportsModel.xcdatamodeld */; };
+		244CF4162403A76700D7CDE8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF4152403A76700D7CDE8 /* CoreDataManager.swift */; };
+		244CF41C2403B0BD00D7CDE8 /* CreateTeamController+UIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF41B2403B0BD00D7CDE8 /* CreateTeamController+UIImagePicker.swift */; };
+		244CF41E2403B90100D7CDE8 /* TeamController+CreateTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF41D2403B90100D7CDE8 /* TeamController+CreateTeam.swift */; };
+		248D33B72403991900BCEA97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248D33B62403991900BCEA97 /* AppDelegate.swift */; };
+		248D33B92403991900BCEA97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248D33B82403991900BCEA97 /* ViewController.swift */; };
+		248D33BC2403991900BCEA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248D33BA2403991900BCEA97 /* Main.storyboard */; };
+		248D33BE2403991A00BCEA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248D33BD2403991A00BCEA97 /* Assets.xcassets */; };
+		248D33C12403991A00BCEA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248D33BF2403991A00BCEA97 /* LaunchScreen.storyboard */; };
+		248D33C9240399D800BCEA97 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248D33C8240399D800BCEA97 /* TeamsViewController.swift */; };
+		248D33CB24039A5B00BCEA97 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248D33CA24039A5B00BCEA97 /* UIColor+Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		244CF40A2403A1BA00D7CDE8 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		244CF40C2403A27300D7CDE8 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		244CF40E2403A47200D7CDE8 /* TeamController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamController+UITableView.swift"; sourceTree = "<group>"; };
+		244CF4102403A4FD00D7CDE8 /* CreateTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamViewController.swift; sourceTree = "<group>"; };
+		244CF4132403A72100D7CDE8 /* NBASportsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NBASportsModel.xcdatamodel; sourceTree = "<group>"; };
+		244CF4152403A76700D7CDE8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		244CF41B2403B0BD00D7CDE8 /* CreateTeamController+UIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateTeamController+UIImagePicker.swift"; sourceTree = "<group>"; };
+		244CF41D2403B90100D7CDE8 /* TeamController+CreateTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamController+CreateTeam.swift"; sourceTree = "<group>"; };
+		248D33B32403991900BCEA97 /* NBASports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBASports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248D33B62403991900BCEA97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		248D33B82403991900BCEA97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		248D33BB2403991900BCEA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248D33BD2403991A00BCEA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		248D33C02403991A00BCEA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		248D33C22403991A00BCEA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248D33C8240399D800BCEA97 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		248D33CA24039A5B00BCEA97 /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248D33B02403991900BCEA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244CF4172403ADE500D7CDE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				248D33CA24039A5B00BCEA97 /* UIColor+Theme.swift */,
+				244CF40C2403A27300D7CDE8 /* UIViewController+Helper.swift */,
+				244CF40E2403A47200D7CDE8 /* TeamController+UITableView.swift */,
+				244CF41B2403B0BD00D7CDE8 /* CreateTeamController+UIImagePicker.swift */,
+				244CF41D2403B90100D7CDE8 /* TeamController+CreateTeam.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		244CF4182403ADFD00D7CDE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				248D33B82403991900BCEA97 /* ViewController.swift */,
+				248D33C8240399D800BCEA97 /* TeamsViewController.swift */,
+				244CF4102403A4FD00D7CDE8 /* CreateTeamViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		244CF4192403AE1800D7CDE8 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				244CF40A2403A1BA00D7CDE8 /* TeamTableViewCell.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		248D33AA2403991900BCEA97 = {
+			isa = PBXGroup;
+			children = (
+				248D33B52403991900BCEA97 /* NBASports */,
+				248D33B42403991900BCEA97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248D33B42403991900BCEA97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248D33B32403991900BCEA97 /* NBASports.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248D33B52403991900BCEA97 /* NBASports */ = {
+			isa = PBXGroup;
+			children = (
+				244CF4192403AE1800D7CDE8 /* CustomClasses */,
+				244CF4182403ADFD00D7CDE8 /* Controllers */,
+				244CF4172403ADE500D7CDE8 /* Extensions */,
+				248D33B62403991900BCEA97 /* AppDelegate.swift */,
+				248D33BA2403991900BCEA97 /* Main.storyboard */,
+				248D33BD2403991A00BCEA97 /* Assets.xcassets */,
+				248D33BF2403991A00BCEA97 /* LaunchScreen.storyboard */,
+				248D33C22403991A00BCEA97 /* Info.plist */,
+				244CF4122403A72100D7CDE8 /* NBASportsModel.xcdatamodeld */,
+				244CF4152403A76700D7CDE8 /* CoreDataManager.swift */,
+			);
+			path = NBASports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248D33B22403991900BCEA97 /* NBASports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248D33C52403991A00BCEA97 /* Build configuration list for PBXNativeTarget "NBASports" */;
+			buildPhases = (
+				248D33AF2403991900BCEA97 /* Sources */,
+				248D33B02403991900BCEA97 /* Frameworks */,
+				248D33B12403991900BCEA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBASports;
+			productName = NBASports;
+			productReference = 248D33B32403991900BCEA97 /* NBASports.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248D33AB2403991900BCEA97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bharatraj Rai";
+				TargetAttributes = {
+					248D33B22403991900BCEA97 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 248D33AE2403991900BCEA97 /* Build configuration list for PBXProject "NBASports" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248D33AA2403991900BCEA97;
+			productRefGroup = 248D33B42403991900BCEA97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248D33B22403991900BCEA97 /* NBASports */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248D33B12403991900BCEA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248D33C12403991A00BCEA97 /* LaunchScreen.storyboard in Resources */,
+				248D33BE2403991A00BCEA97 /* Assets.xcassets in Resources */,
+				248D33BC2403991900BCEA97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248D33AF2403991900BCEA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248D33B92403991900BCEA97 /* ViewController.swift in Sources */,
+				244CF40B2403A1BA00D7CDE8 /* TeamTableViewCell.swift in Sources */,
+				248D33CB24039A5B00BCEA97 /* UIColor+Theme.swift in Sources */,
+				244CF4142403A72100D7CDE8 /* NBASportsModel.xcdatamodeld in Sources */,
+				244CF4112403A4FD00D7CDE8 /* CreateTeamViewController.swift in Sources */,
+				248D33C9240399D800BCEA97 /* TeamsViewController.swift in Sources */,
+				244CF40D2403A27300D7CDE8 /* UIViewController+Helper.swift in Sources */,
+				244CF40F2403A47200D7CDE8 /* TeamController+UITableView.swift in Sources */,
+				244CF4162403A76700D7CDE8 /* CoreDataManager.swift in Sources */,
+				248D33B72403991900BCEA97 /* AppDelegate.swift in Sources */,
+				244CF41C2403B0BD00D7CDE8 /* CreateTeamController+UIImagePicker.swift in Sources */,
+				244CF41E2403B90100D7CDE8 /* TeamController+CreateTeam.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		248D33BA2403991900BCEA97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248D33BB2403991900BCEA97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248D33BF2403991A00BCEA97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248D33C02403991A00BCEA97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248D33C32403991A00BCEA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		248D33C42403991A00BCEA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248D33C62403991A00BCEA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBASports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharatraj.NBASports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248D33C72403991A00BCEA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBASports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharatraj.NBASports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248D33AE2403991900BCEA97 /* Build configuration list for PBXProject "NBASports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248D33C32403991A00BCEA97 /* Debug */,
+				248D33C42403991A00BCEA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248D33C52403991A00BCEA97 /* Build configuration list for PBXNativeTarget "NBASports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248D33C62403991A00BCEA97 /* Debug */,
+				248D33C72403991A00BCEA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		244CF4122403A72100D7CDE8 /* NBASportsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				244CF4132403A72100D7CDE8 /* NBASportsModel.xcdatamodel */,
+			);
+			currentVersion = 244CF4132403A72100D7CDE8 /* NBASportsModel.xcdatamodel */;
+			path = NBASportsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 248D33AB2403991900BCEA97 /* Project object */;
+}
