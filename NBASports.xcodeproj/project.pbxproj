@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2406E6E62404ED0900FB1527 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2406E6E52404ED0900FB1527 /* PlayersViewController.swift */; };
+		2406E6E82404ED4400FB1527 /* CreatePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2406E6E72404ED4400FB1527 /* CreatePlayerViewController.swift */; };
 		244CF40B2403A1BA00D7CDE8 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF40A2403A1BA00D7CDE8 /* TeamTableViewCell.swift */; };
 		244CF40D2403A27300D7CDE8 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF40C2403A27300D7CDE8 /* UIViewController+Helper.swift */; };
 		244CF40F2403A47200D7CDE8 /* TeamController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CF40E2403A47200D7CDE8 /* TeamController+UITableView.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2406E6E52404ED0900FB1527 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayersViewController.swift; path = NBASports/Controllers/Players/PlayersViewController.swift; sourceTree = SOURCE_ROOT; };
+		2406E6E72404ED4400FB1527 /* CreatePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlayerViewController.swift; sourceTree = "<group>"; };
 		244CF40A2403A1BA00D7CDE8 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		244CF40C2403A27300D7CDE8 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
 		244CF40E2403A47200D7CDE8 /* TeamController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamController+UITableView.swift"; sourceTree = "<group>"; };
@@ -55,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2406E6E92404ED5200FB1527 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				2406E6E52404ED0900FB1527 /* PlayersViewController.swift */,
+				2406E6E72404ED4400FB1527 /* CreatePlayerViewController.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		2406E6EA2404ED6200FB1527 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				248D33C8240399D800BCEA97 /* TeamsViewController.swift */,
+				244CF4102403A4FD00D7CDE8 /* CreateTeamViewController.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
 		244CF4172403ADE500D7CDE8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,9 +92,9 @@
 		244CF4182403ADFD00D7CDE8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2406E6E92404ED5200FB1527 /* Players */,
+				2406E6EA2404ED6200FB1527 /* Team */,
 				248D33B82403991900BCEA97 /* ViewController.swift */,
-				248D33C8240399D800BCEA97 /* TeamsViewController.swift */,
-				244CF4102403A4FD00D7CDE8 /* CreateTeamViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2406E6E62404ED0900FB1527 /* PlayersViewController.swift in Sources */,
 				248D33B92403991900BCEA97 /* ViewController.swift in Sources */,
 				244CF40B2403A1BA00D7CDE8 /* TeamTableViewCell.swift in Sources */,
 				248D33CB24039A5B00BCEA97 /* UIColor+Theme.swift in Sources */,
@@ -200,6 +223,7 @@
 				244CF4162403A76700D7CDE8 /* CoreDataManager.swift in Sources */,
 				248D33B72403991900BCEA97 /* AppDelegate.swift in Sources */,
 				244CF41C2403B0BD00D7CDE8 /* CreateTeamController+UIImagePicker.swift in Sources */,
+				2406E6E82404ED4400FB1527 /* CreatePlayerViewController.swift in Sources */,
 				244CF41E2403B90100D7CDE8 /* TeamController+CreateTeam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
