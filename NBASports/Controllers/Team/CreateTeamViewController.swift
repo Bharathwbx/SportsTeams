@@ -9,15 +9,14 @@
 import UIKit
 import CoreData
 
-protocol CreateTeamViewControllerDelegate {
+@objc protocol CreateTeamViewControllerDelegate {
     func didAddTeam(_ team: Team)
     func didEditTeam(_ team: Team)
-
 }
 
 class CreateTeamViewController: UIViewController {
     
-    var delegate: CreateTeamViewControllerDelegate?
+    weak var delegate: CreateTeamViewControllerDelegate?
     
     var team: Team? {
         didSet {

@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol CreatePlayerViewControllerDelegate {
+@objc protocol CreatePlayerViewControllerDelegate {
     func didAddPlayer(_ player: Player)
 }
 
 class CreatePlayerViewController: UIViewController {
     
     var team: Team?
-    var delegate: CreatePlayerViewControllerDelegate?
+    weak var delegate: CreatePlayerViewControllerDelegate?
     
     let nameLabel: UILabel = {
         let label = UILabel()
