@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-@objc protocol CreateTeamViewControllerDelegate {
+protocol CreateTeamViewControllerDelegate: class {
     func didAddTeam(_ team: Team)
     func didEditTeam(_ team: Team)
 }

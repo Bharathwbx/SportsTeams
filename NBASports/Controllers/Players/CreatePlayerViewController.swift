@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc protocol CreatePlayerViewControllerDelegate {
+protocol CreatePlayerViewControllerDelegate: class {
     func didAddPlayer(_ player: Player)
 }
 
